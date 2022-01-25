@@ -53,6 +53,8 @@ function draw() {
     text("Última refeição :"+ lastFeed%12 + " da tarde/noite", 350,30)
   }else if(lastFeed==0){
     text("Última refeição : 12 AM"+ lastFeed, 250,30 )
+  }else{
+    text("Última Refeição :"+ lastFeed + " da manhã", 150,30)
   }
   
  
